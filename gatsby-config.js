@@ -48,12 +48,7 @@ module.exports = {
         ]
       }
     },
-    {
-      resolve: `gatsby-plugin-offline`,
-      options: {
-        precachePages: [`/`]
-      }
-    },
+    `gatsby-plugin-offline`,
     `gatsby-plugin-netlify`
   ]
 };
